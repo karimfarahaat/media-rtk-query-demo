@@ -53,5 +53,21 @@
       "id": 16
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 13,
+      "url": "https://picsum.photos/seed/TDIPmMHt/640/480",
+      "id": 5
+    },
+    {
+      "albumId": 13,
+      "url": "https://picsum.photos/seed/K54QFfrPX/640/480",
+      "id": 6
+    },
+    {
+      "albumId": 14,
+      "url": "https://loremflickr.com/150/150?lock=5930668741623808",
+      "id": 10
+    }
+  ]
 }
