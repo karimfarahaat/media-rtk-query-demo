@@ -20,7 +20,7 @@ const albumsApi = createApi({
         // 'user' in providedTags is whatever we passed to the useFetchAlbumsQuery in component
         providesTags: (result, error, user) => {
           // results is the list of albums
-          //don't need results and error
+          //don't need error
           const tags = result.map((album) => {
             return { type: "Album", id: album.id };
           });
